@@ -1,5 +1,5 @@
-# Utiliser une image Node.js officielle pour la construction de l'application Angular
-FROM node:16-alpine AS build
+# Utiliser une image Node.js officielle avec une version compatible (18.x)
+FROM node:18-alpine AS build
 
 # Définir le répertoire de travail
 WORKDIR /app
